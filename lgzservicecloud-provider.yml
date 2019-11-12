@@ -47,7 +47,6 @@ spring:
         date-format: yyyy-MM-dd HH:mm:ss
         time-zone: GMT+8
 
-		
 mybatis:
   mapper-locations: classpath*:mapper/**/*.xml
   configuration:
@@ -55,7 +54,7 @@ mybatis:
     default-fetch-size: 100
     default-statement-timeout: 30
     log-impl: org.apache.ibatis.logging.stdout.StdOutImpl
-	
+
 mapper:
     mappers:
         - com.lgz.cloud.lib.MyBaseMapper
@@ -67,7 +66,7 @@ pagehelper:
     reasonable: true
     supportMethodsArguments: false
     params: count=countSql
-	
+
 eureka:
   client:
     service-url:
@@ -75,7 +74,7 @@ eureka:
   instance:
     instance-id: lgzservicecloudprovider-dept-8761 #自定义服务名称
     prefer-ip-address: true #访问路径可显示ip地址
-	  
+
 info:
   app:
     name: lgzservicecloudprovider-dept
@@ -128,7 +127,7 @@ spring:
         date-format: yyyy-MM-dd HH:mm:ss
         time-zone: GMT+8
 
-		
+
 mybatis:
   mapper-locations: classpath*:mapper/**/*.xml
   configuration:
@@ -136,7 +135,7 @@ mybatis:
     default-fetch-size: 100
     default-statement-timeout: 30
     log-impl: org.apache.ibatis.logging.stdout.StdOutImpl
-	
+
 mapper:
     mappers:
         - com.lgz.cloud.lib.MyBaseMapper
@@ -148,7 +147,7 @@ pagehelper:
     reasonable: true
     supportMethodsArguments: false
     params: count=countSql
-	
+
 eureka:
   client:
     service-url:
@@ -156,16 +155,11 @@ eureka:
   instance:
     instance-id: lgzservicecloudprovider-dept-8761 #自定义服务名称
     prefer-ip-address: true #访问路径可显示ip地址
-	  
+
 info:
   app:
     name: lgzservicecloudprovider-dept
   company-name: lgz
   build:
     artifactId: $project.artifactId$
-    version: $project.version$	  
-	  
-	  
-	  
-	  
-	  
+    version: $project.version$
