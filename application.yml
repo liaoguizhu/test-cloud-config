@@ -2,13 +2,11 @@ spring:
   profiles:
     active:
     -dev
- 
 ---
 spring:
   profiles: dev
   application:
     name: lgzservicecloud-config-lgz-dev
-     
 ---
 spring:
   profiles: test
