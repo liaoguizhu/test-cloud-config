@@ -17,9 +17,9 @@ eureka:
 server:
   port: 8202
 spring:
-  profiles: dev
+  profiles: test
   application:
-    name: lgzservicecloud-config-client
+    name: lgzservicecloud-config-client-test
 eureka:
   client:
     service-url:
