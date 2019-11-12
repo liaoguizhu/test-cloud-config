@@ -6,7 +6,7 @@ spring:
 spring:
   profiles: dev
   application:
-    name: lgzservicecloud-config-lgz-dev
+    name: lgzservicecloud-config-lgz-dev-hello
 ---
 spring:
   profiles: test
