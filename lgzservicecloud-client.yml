@@ -19,7 +19,7 @@ server:
 spring:
   profiles: test
   application:
-    name: lgzservicecloud-config-client-test
+    name: lgzservicecloud-config-client-hello
 eureka:
   client:
     service-url:
