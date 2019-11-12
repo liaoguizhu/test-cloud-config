@@ -11,7 +11,6 @@ spring:
     name: lgzservicecloud-config-client
 eureka:
   client:
-    register-with-eureka: false #false表示不向注册中心注册自己
     service-url:
       defaultZone: http://eureka7001:7001/eureka
 ---
@@ -23,6 +22,5 @@ spring:
     name: lgzservicecloud-config-client
 eureka:
   client:
-    register-with-eureka: false #false表示不向注册中心注册自己
     service-url:
       defaultZone: http://eureka7001:7001/eureka
