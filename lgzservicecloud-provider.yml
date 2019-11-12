@@ -37,7 +37,7 @@ spring:
 #      filters: stat,log4j,config
       # 通过connectProperties属性来打开mergeSql功能；慢SQL记录
       connectionProperties: druid.stat.mergeSql=true;druid.stat.slowSqlMillis=5000;
-    url: jdbc:mysql://localhost:3306/cloud-test?characterEncoding=utf-8
+    url: jdbc:mysql://localhost:3306/cloud-test03?characterEncoding=utf-8
     driver-class-name: com.mysql.jdbc.Driver
     username: root
     password: root
